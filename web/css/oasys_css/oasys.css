@@ -1,0 +1,183 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 80%;
+  background-color: #fff;
+}
+
+#container
+{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  background: #fff;
+}
+
+#header
+{
+  margin: 2% 2% 2% 2%;
+  padding: 0;
+  float: left;
+  width: 96%;
+  height: 10%;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#title
+{ 
+  float: left;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#menus
+{
+  margin: 0 2% 0 2%;
+  padding: 0;
+  float: left;
+  width: 96%;
+  background: #313131;
+  height: 40px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#menu
+{
+  margin: 0 auto;
+  padding: 0;
+  color: #ffffff;
+}
+
+#name
+{
+  float: left;
+  padding: 10px;
+}
+
+#separated
+{
+  float: left;
+  padding: 10px 0 10px 0;
+}
+
+#logout
+{
+  float: left;
+  padding: 10px;
+}
+
+#logout a
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#logout a:hover
+{
+  color: #777777;
+}
+
+#date
+{
+  float: right;
+  padding: 10px;
+}
+
+#contents
+{
+  margin: 0 auto;
+  padding: 0;
+  float: left;
+  width: 100%;
+  background: #fff;
+}
+
+#sidebar
+{
+  margin: 1% 0 2% 2%;
+  float: left;
+  width: 15%;
+  padding: 0;
+  display: inline;
+}
+
+.title_bar
+{
+  font-size: 18px;
+  margin: 5px 0 5px 0;
+}
+
+.title_bars
+{
+  font-size: 18px;
+  margin: 5px 0 5px 0;
+}
+
+.border_title
+{
+  margin-bottom: 10px;
+  height: 5px;
+  background: #00F912;
+  border-left: #11C7FF 40px solid;
+}
+
+ul#accordion, ul#accordion ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+ul#accordion a {
+	display: block;
+	text-decoration: none;	
+}
+
+ul#accordion li {
+	margin-top: 1px;
+}
+
+ul#accordion li a {
+	background:#4995F2;
+	color:#FFFFFF;	
+	padding: 0.5em;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+ul#accordion li ul li a {
+	background:#E3F1FA;
+	color:#333333;
+	padding-left: 10%;
+}
+
+#content
+{
+  margin: 1% 2% 0 0;
+  padding: 0;
+  clear: right;
+  float: right;
+  width: 77%;
+  display: inline;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#content_sf_content
+{
+  margin: 10px 0;
+}
+
+#footer
+{
+  margin: 0 0 10px 0;
+  padding: 20px;
+  height: 1%;
+  clear: both;
+  background: #ccc;
+  text-align: center;  
+}
